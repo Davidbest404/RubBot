@@ -4,5 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Flocation.unity
+    guid: 93cc51b55554e79479889beedc7e60f9
+  - enabled: 1
+    path: Assets/Scenes/Slocation.unity
+    guid: 9e417a2713965ac4289549896abb7197
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
