@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
 
         if (moveVertical != 0 || moveHorizontal != 0)
         {
-            Wheel.transform.Rotate(Vector3.forward  * ((Mathf.Abs(moveHorizontal) + Mathf.Abs(moveVertical) + speed)/6));
+            Wheel.transform.Rotate(Vector3.forward  * ((Mathf.Abs(moveHorizontal) + Mathf.Abs(moveVertical) + speed)/4));
         }
 
         moveDirection = new Vector3(moveHorizontal, 0.0f, moveVertical);
