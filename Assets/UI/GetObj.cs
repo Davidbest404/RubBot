@@ -18,16 +18,6 @@ public class GetObj : MonoBehaviour
                 targetObject.SetActive(false);
                 isPlayerNear = true;
             }
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.G) && isPickUped)
-        {
-            targetObject.SetActive(true);
-            Vector3 place = player.transform.position;
-            place += player.transform.forward * 2;
-            targetObject.transform.position = place;
-            isPlayerNear = false;
         }
     }
 
