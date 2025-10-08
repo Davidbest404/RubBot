@@ -1133,11 +1133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5599169446860331311, guid: 27a5fc35838b5954fb1d4ec6c7d14439, type: 3}
       propertyPath: m_VerticalAxis.m_MaxSpeed
-      value: 600
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 5599169446860331311, guid: 27a5fc35838b5954fb1d4ec6c7d14439, type: 3}
       propertyPath: m_HorizontalAxis.m_MaxSpeed
-      value: 600
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 6075588610861215337, guid: 27a5fc35838b5954fb1d4ec6c7d14439, type: 3}
       propertyPath: m_LocalPosition.x

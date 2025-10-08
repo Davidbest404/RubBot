@@ -7,6 +7,7 @@ public class Fading : MonoBehaviour
 {
     public float Speed;
     public TextMeshProUGUI Text;
+    public bool CloseCanvas = true;
     public GameObject Canvas;
     private bool Ended = false;
 
@@ -21,9 +22,11 @@ public class Fading : MonoBehaviour
             else
             {
                 Ended = true;
-                Text.alpha = 255;
-                Canvas.SetActive(false);
-
+                if (CloseCanvas)
+                {
+                    Text.alpha = 255;
+                    Canvas.SetActive(false);
+                }
             }
         }
     }

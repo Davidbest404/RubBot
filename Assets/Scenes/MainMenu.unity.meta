@@ -1,16 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: fad897cb9dfdc584794db22fa6aed67d
-PrefabImporter:
-=======
 <<<<<<<< HEAD:Assets/Scenes/MainMenu.unity.meta
-guid: a9f0c7309e717a14eb5446badefbedd9
+guid: 6b0d1a15ade15ae4b983675f248e0238
 DefaultImporter:
 ========
 guid: fad897cb9dfdc584794db22fa6aed67d
 PrefabImporter:
 >>>>>>>> 6669b2e4cafef94c955c2d0b41b78eae3b7c844b:Assets/UI/Canvas.prefab.meta
->>>>>>> Stashed changes
   externalObjects: {}
   userData: 
   assetBundleName: 
